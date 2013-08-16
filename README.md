@@ -13,6 +13,8 @@ On Windows:
 
 Don't forget to sync the repository in the Git client any time changes are made.
  
+----
+
 In this repository:
 
  * **lbr/**
