@@ -19,3 +19,7 @@ Contains:
  * cam/
    * gerbers-rs274x-excellon.cam - Generates rs274x Gerbers and an Excellon drill file
    * gerbers-rs274x-excellon-vscore.cam - Same as above plus a v-score layer
+ * templates/ - Eagle project templates
+   * BeagleBone/
+     * BB-cape-mitered-0603.brd \
+     * BB-cape-mitered-0603.sch - BB cape, mitered corners, EEPROM, 0603 passives
