@@ -1,8 +1,6 @@
 LGX Eagle Rescources
 ====================
 
-
-
 Contains:
 
  * lbr/
@@ -16,4 +14,6 @@ Contains:
        * OSHW-LOGO - Open Source Hardware logo
      * EEPROM-I2C - Standard 8-pin i2c EEPROM footprint (e.g. BB cape EEPROM)
      * And lots more...
-   
+ * cam/
+   * gerbers-rs274x-excellon.cam - Generates rs274x Gerbers and an Excellon drill file
+   * gerbers-rs274x-excellon-vscore.cam - Same as above plus a v-score layer
