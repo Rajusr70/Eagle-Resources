@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2427,7 +2427,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="11.1125" y1="15.5575" x2="11.1125" y2="18.0975" width="0.3048" layer="1"/>
 <wire x1="13.5509" y1="13.6525" x2="13.2325" y2="13.6525" width="0.3048" layer="1"/>
 <wire x1="13.2325" y1="13.6525" x2="11.3275" y2="15.5575" width="0.3048" layer="1"/>
-<wire x1="17.6775" y1="8.89" x2="21.59" y2="4.445" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="4.445" x2="21.59" y2="4.9775" width="0.3048" layer="1"/>
+<wire x1="21.59" y1="4.9775" x2="17.6775" y2="8.89" width="0.3048" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="C13" pad="2"/>
@@ -2480,17 +2481,13 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="13.5509" y1="9.8425" x2="15.025" y2="9.8425" width="0.3048" layer="1"/>
 <wire x1="15.025" y1="9.8425" x2="15.9775" y2="8.89" width="0.3048" layer="1"/>
 <wire x1="41.91" y1="4.1275" x2="40.9575" y2="3.175" width="0.3048" layer="1"/>
-<wire x1="40.9575" y1="3.175" x2="20.955" y2="3.175" width="0.3048" layer="1"/>
+<wire x1="40.9575" y1="3.175" x2="18.415" y2="3.175" width="0.3048" layer="1"/>
 <wire x1="15.875" y1="9.105" x2="15.9775" y2="8.89" width="0.3048" layer="1"/>
 <contactref element="BB1" pad="P9.20"/>
 <wire x1="41.91" y1="4.1275" x2="41.91" y2="4.445" width="0.3048" layer="1"/>
-<wire x1="20.955" y1="3.175" x2="20.32" y2="3.81" width="0.3048" layer="1"/>
-<wire x1="20.32" y1="3.81" x2="20.32" y2="5.715" width="0.3048" layer="1"/>
-<wire x1="16.1925" y1="8.255" x2="16.1925" y2="8.675" width="0.3048" layer="1"/>
-<wire x1="16.1925" y1="8.675" x2="15.9775" y2="8.89" width="0.3048" layer="1"/>
-<wire x1="20.32" y1="5.715" x2="19.05" y2="6.985" width="0.3048" layer="1"/>
-<wire x1="19.05" y1="6.985" x2="17.4625" y2="6.985" width="0.3048" layer="1"/>
-<wire x1="17.4625" y1="6.985" x2="16.1925" y2="8.255" width="0.3048" layer="1"/>
+<wire x1="18.415" y1="3.175" x2="17.78" y2="3.81" width="0.3048" layer="1"/>
+<wire x1="17.78" y1="3.81" x2="17.78" y2="7.0875" width="0.3048" layer="1"/>
+<wire x1="17.78" y1="7.0875" x2="15.9775" y2="8.89" width="0.3048" layer="1"/>
 </signal>
 <signal name="I2C2_SCL">
 <contactref element="IC8" pad="6"/>
@@ -2502,12 +2499,10 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="12.3825" y1="11.1125" x2="13.5509" y2="11.1125" width="0.3048" layer="1"/>
 <contactref element="BB1" pad="P9.19"/>
 <wire x1="41.91" y1="1.905" x2="41.91" y2="1.5875" width="0.3048" layer="1"/>
-<wire x1="18.0975" y1="0.635" x2="17.4625" y2="1.27" width="0.3048" layer="1"/>
-<wire x1="11.7475" y1="10.4775" x2="11.7475" y2="8.89" width="0.3048" layer="1"/>
-<wire x1="17.4625" y1="1.27" x2="17.4625" y2="4.7625" width="0.3048" layer="1"/>
-<wire x1="17.4625" y1="4.7625" x2="13.97" y2="8.255" width="0.3048" layer="1"/>
-<wire x1="13.97" y1="8.255" x2="12.3825" y2="8.255" width="0.3048" layer="1"/>
-<wire x1="12.3825" y1="8.255" x2="11.7475" y2="8.89" width="0.3048" layer="1"/>
+<wire x1="18.0975" y1="0.635" x2="16.8275" y2="1.905" width="0.3048" layer="1"/>
+<wire x1="11.7475" y1="10.4775" x2="11.7475" y2="9.2075" width="0.3048" layer="1"/>
+<wire x1="16.8275" y1="1.905" x2="16.8275" y2="4.1275" width="0.3048" layer="1"/>
+<wire x1="16.8275" y1="4.1275" x2="11.7475" y2="9.2075" width="0.3048" layer="1"/>
 </signal>
 <signal name="WP">
 <contactref element="IC8" pad="7"/>
