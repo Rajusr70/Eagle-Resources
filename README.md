@@ -1,9 +1,19 @@
 LGX Eagle Resources
 ====================
 
-To use clone the repository then add each directory to the Eagle search paths (Options->Directories from the Control Panel).
+To use clone the repository then add each directory to the Eagle search paths.
 
-Contains:
+On Windows:
+ 1. Install and set up [Git for Windows](http://windows.github.com/)
+ 2. Clone lgxlogic/Eagle-Resources using the Git client
+ 3. Open the repository, click Tools->Open in Explorer
+ 4. In the Eagle Control Panel, click Options->Directories
+ 5. Append the path to each of the directories in the repository to the corresponding field, 
+ seperated by a semicolon (templates/ in the Projects field)
+
+ (Options->Directories from the Control Panel).
+
+In this repository:
 
  * **lbr/**
    * **logic-supply.lbr**
