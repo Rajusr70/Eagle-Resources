@@ -11,8 +11,8 @@ On Windows:
  5. Append the path to each of the directories in the repository to the corresponding field, 
  seperated by a semicolon (templates/ in the Projects field)
 
- (Options->Directories from the Control Panel).
-
+Don't forget to sync the repository in the Git client any time changes are made.
+ 
 In this repository:
 
  * **lbr/**
