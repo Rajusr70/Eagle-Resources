@@ -5,21 +5,20 @@ To use clone the repository then add each directory to the Eagle search paths (O
 
 Contains:
 
- * lbr/
-   * logic-supply.lbr
+ * **lbr/**
+   * **logic-supply.lbr**
      * BeagleBone cape parts
-         * BBH - BeagleBone header sub-assembly
-         * BBHD - BeagleBone header sub-assembly with BB Black with debug header
-         * BBHD-NH - Same as BBHD but with the pins reserved for HDMI unpopulated
+         * **BBH** - BeagleBone header sub-assembly
+         * **BBHD** - BeagleBone header sub-assembly with BB Black with debug header
+         * **BBHD-NH** - Same as BBHD but with the pins reserved for HDMI unpopulated
      * Graphics
-         * LOGO-LGX - LGX logo, believe it or not
-         * OSHW-LOGO - Open Source Hardware logo
-     * EEPROM-I2C - Standard 8-pin i2c EEPROM footprint (e.g. BB cape EEPROM)
+         * **LOGO-LGX** - LGX logo, believe it or not
+         * **OSHW-LOGO** - Open Source Hardware logo
+     * **EEPROM-I2C** - Standard 8-pin i2c EEPROM footprint (e.g. BB cape EEPROM)
      * And lots more...
- * cam/
-   * gerbers-rs274x-excellon.cam - Generates rs274x Gerbers and an Excellon drill file
-   * gerbers-rs274x-excellon-vscore.cam - Same as above plus a v-score layer
- * templates/ - Eagle project templates
-   * BeagleBone/
-     * BB-cape-mitered-0603.brd \
-     * BB-cape-mitered-0603.sch - BB cape, mitered corners, EEPROM, 0603 passives
+ * **cam/**
+   * **gerbers-rs274x-excellon.cam** - Generates rs274x Gerbers and an Excellon drill file
+   * **gerbers-rs274x-excellon-vscore.cam** - Same as above plus a v-score layer
+ * **templates/** - Eagle project templates
+   * **BeagleBone/**
+     * **BB-cape-mitered-0603.sch/.brd** - BB cape, mitered corners, EEPROM, 0603 passives
