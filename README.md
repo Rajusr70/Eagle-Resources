@@ -1,6 +1,8 @@
 LGX Eagle Rescources
 ====================
 
+To use clone the repository then add each directory to the Eagle search paths (Options->Directories from the Control Panel).
+
 Contains:
 
  * lbr/
