@@ -1,4 +1,4 @@
-LGX Eagle Rescources
+LGX Eagle Resources
 ====================
 
 To use clone the repository then add each directory to the Eagle search paths (Options->Directories from the Control Panel).
