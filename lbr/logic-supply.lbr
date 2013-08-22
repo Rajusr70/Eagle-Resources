@@ -16331,7 +16331,7 @@ From SparkFun-Aesthetics.lbr</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TRANSISTOR_NPN" prefix="Q">
+<deviceset name="NPN" prefix="Q">
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
 </gates>
