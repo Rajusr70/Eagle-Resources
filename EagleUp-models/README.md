@@ -4,8 +4,11 @@ EagleUp can be installed using the instructions here: http://eagleup.wordpress.c
 
 To use these models, change the models path to be the path to Eagle-Resources\EagleUp-models\. 
 
-To make the solder mask a snazzy LGX orange, set the solder mask color to custom and 
-clik OK, then set the Board color to 0xFF7900 and the Traces color the 0xD26400 
-(these values will be saved).
-
 Eventually This should provide models for all parts in the LGX library.
+
+-----
+
+ * 0-Custom/ - Custom parts and parts from the [Sketchup Warehouse](http://sketchup.google.com/3dwarehouse/)
+ * 1-dangerous-prototypes/ - [Dangerous Prototypes' SketchUp Models](http://dangerous-prototypes-open-hardware.googlecode.com/svn/trunk/Eagle_Part_Library/SketchUp_Part_Models/)
+ * 2-Builtin/ - The parts included with EagleUp
+ * 3-Warehouse/ - Parts from the [EagleUp Warehouse](http://eagleup.wordpress.com/warehouse/)
