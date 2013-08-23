@@ -1,7 +1,9 @@
 LGX Eagle Resources
 ====================
 
-To use clone the repository then add each directory to the Eagle search paths.
+Contains resources for CadSoft's Eagle EDA tool: http://www.cadsoftusa.com/eagle-pcb-design-software/
+
+To use, clone the repository then add each subdirectory to Eagle's search paths.
 
 On Windows:
  1. Install and set up [Git for Windows](http://windows.github.com/)
