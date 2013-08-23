@@ -10,13 +10,18 @@ On Windows:
  2. Clone lgxlogic/Eagle-Resources using the Git client
  3. Open the repository, click Tools->Open in Explorer
  4. In the Eagle Control Panel, click Options->Directories
- 5. Append the path to each of the directories in the repository to the corresponding field, 
+ 5. Append the path to each of the subdirectories in the repository to the corresponding field, 
  seperated by a semicolon (templates/ goes in the Projects field)
+ 6. If using the EagleUp models, follow instructions in EagleUp-models/README.md
 
 ----
 
 In this repository:
 
+ * **EagleUp-models/** - SkethUp component models for EagleUp, see EagleUp-models/README.md
+ * **cam/**
+   * **gerbers-rs274x-excellon.cam** - Generates rs274x Gerbers and an Excellon drill file
+   * **gerbers-rs274x-excellon-vscore.cam** - Same as above plus a v-score layer
  * **lbr/**
    * **logic-supply.lbr**
      * BeagleBone cape parts
@@ -28,9 +33,6 @@ In this repository:
          * **OSHW-LOGO** - Open Source Hardware logo
      * **EEPROM-I2C** - Standard 8-pin i2c EEPROM footprint (e.g. BB cape EEPROM)
      * And lots more...
- * **cam/**
-   * **gerbers-rs274x-excellon.cam** - Generates rs274x Gerbers and an Excellon drill file
-   * **gerbers-rs274x-excellon-vscore.cam** - Same as above plus a v-score layer
  * **templates/** - Eagle project templates
    * **BeagleBone/**
      * **BB-cape-mitered-0603.sch/.brd** - BB cape, mitered corners, EEPROM, 0603 passives
