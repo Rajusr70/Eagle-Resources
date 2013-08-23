@@ -46,5 +46,5 @@ Follow us on Google+ for updates and more information: https://plus.google.com/u
 Created by Alexander Hiam for LGX / Logic Supply.
 
 All included files, unless stated otherwise, are provided under the Creative Commons Attribution-ShareAlike 3.0 Unported License.   
-To view a copy of this license, visit http://http://creativecommons.org/licenses/by-sa/3.0/  
+To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/  
 All text above must be included in any redistribution.
