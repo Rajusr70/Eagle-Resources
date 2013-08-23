@@ -16305,7 +16305,7 @@ From SparkFun-Aesthetics.lbr</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R" prefix="R">
+<deviceset name="R" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -16348,7 +16348,7 @@ From SparkFun-Aesthetics.lbr</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="C" prefix="C">
+<deviceset name="C" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
