@@ -9,10 +9,8 @@ On Windows:
  3. Open the repository, click Tools->Open in Explorer
  4. In the Eagle Control Panel, click Options->Directories
  5. Append the path to each of the directories in the repository to the corresponding field, 
- seperated by a semicolon (templates/ in the Projects field)
+ seperated by a semicolon (templates/ goes in the Projects field)
 
-Don't forget to sync the repository in the Git client any time changes are made.
- 
 ----
 
 In this repository:
@@ -34,3 +32,15 @@ In this repository:
  * **templates/** - Eagle project templates
    * **BeagleBone/**
      * **BB-cape-mitered-0603.sch/.brd** - BB cape, mitered corners, EEPROM, 0603 passives
+
+----
+
+Check out Logic Supply at http://www.logicsupply.com/
+
+Follow us on Google+ for updates and more information: https://plus.google.com/u/0/b/103613886667848850929/
+
+Created by Alexander Hiam for LGX / Logic Supply.
+
+All included files, unless stated otherwise, are provided under the Creative Commons Attribution-ShareAlike 3.0 Unported License.   
+To view a copy of this license, visit http://http://creativecommons.org/licenses/by-sa/3.0/  
+All text above must be included in any redistribution.

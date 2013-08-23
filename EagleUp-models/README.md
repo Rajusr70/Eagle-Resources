@@ -2,9 +2,9 @@
 
 EagleUp can be installed using the instructions here: http://eagleup.wordpress.com/installation-and-setup/
 
-To use these models, change the models path to be the path to Eagle-Resources\EagleUp-models\. 
+To use these models, change the EagleUp models path to be the path to Eagle-Resources\EagleUp-models\. 
 
-Eventually This should provide models for all parts in the LGX library.
+Eventually This should include models for all parts in the LGX Eagle library.
 
 -----
 
@@ -12,3 +12,5 @@ Eventually This should provide models for all parts in the LGX library.
  * 1-dangerous-prototypes/ - [Dangerous Prototypes' SketchUp Models](http://dangerous-prototypes-open-hardware.googlecode.com/svn/trunk/Eagle_Part_Library/SketchUp_Part_Models/)
  * 2-Builtin/ - The parts included with EagleUp
  * 3-Warehouse/ - Parts from the [EagleUp Warehouse](http://eagleup.wordpress.com/warehouse/)
+ 
+ 
