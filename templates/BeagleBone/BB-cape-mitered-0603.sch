@@ -13434,25 +13434,25 @@ BBH1 outdated, use BBH2 or BBH3 only</description>
 </part>
 <part name="U$3" library="logic-supply" deviceset="FRAME_A3" device=""/>
 <part name="U$4" library="logic-supply" deviceset="LOGO-LGX" device="_LARGE" value="LOGO-LGX_LARGE"/>
-<part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="4.7k">
+<part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="5.6k">
 <attribute name="PARTNO" value="RC0603FR-074K7L"/>
 </part>
-<part name="R11" library="rcl" deviceset="R-US_" device="R0603" value="4.7k">
+<part name="R11" library="rcl" deviceset="R-US_" device="R0603" value="5.6k">
 <attribute name="PARTNO" value="RC0603FR-074K7L"/>
 </part>
 <part name="P+6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="4.7k">
+<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="5.6k">
 <attribute name="PARTNO" value="RC0603FR-074K7L"/>
 </part>
 <part name="TP1" library="logic-supply" deviceset="TEST_POINT" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="4.7k">
+<part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="5.6k">
 <attribute name="PARTNO" value="RC0603FR-074K7L"/>
 </part>
-<part name="R6" library="rcl" deviceset="R-US_" device="R0603" value="4.7k">
+<part name="R6" library="rcl" deviceset="R-US_" device="R0603" value="5.6k">
 <attribute name="PARTNO" value="RC0603FR-074K7L"/>
 </part>
-<part name="R8" library="rcl" deviceset="R-US_" device="R0603" value="4.7k">
+<part name="R8" library="rcl" deviceset="R-US_" device="R0603" value="5.6k">
 <attribute name="PARTNO" value="RC0603FR-074K7L"/>
 </part>
 <part name="P+7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>

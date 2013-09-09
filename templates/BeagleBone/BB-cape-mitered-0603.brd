@@ -2340,17 +2340,17 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PARTNO" value="CAT24C256WI" x="10.4775" y="11.7475" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U$4" library="logic-supply" package="LOGO-LGX-LARGE" value="LOGO-LGX_LARGE" x="41.5925" y="31.75" smashed="yes"/>
-<element name="R7" library="rcl" package="R0603" value="4.7k" x="16.8275" y="11.1125" smashed="yes">
+<element name="R7" library="rcl" package="R0603" value="5.6k" x="16.8275" y="11.1125" smashed="yes">
 <attribute name="NAME" x="18.0975" y="13.0175" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="16.1925" y="9.2075" size="1.27" layer="27"/>
 <attribute name="PARTNO" value="RC0603FR-074K7L" x="16.8275" y="11.1125" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R11" library="rcl" package="R0603" value="4.7k" x="16.8275" y="8.89" smashed="yes">
+<element name="R11" library="rcl" package="R0603" value="5.6k" x="16.8275" y="8.89" smashed="yes">
 <attribute name="NAME" x="16.1925" y="6.985" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="16.1925" y="6.985" size="1.27" layer="27"/>
 <attribute name="PARTNO" value="RC0603FR-074K7L" x="16.8275" y="8.89" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R2" library="rcl" package="R0603" value="4.7k" x="14.605" y="17.145" smashed="yes">
+<element name="R2" library="rcl" package="R0603" value="5.6k" x="14.605" y="17.145" smashed="yes">
 <attribute name="NAME" x="14.9225" y="18.0975" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="13.97" y="15.24" size="1.27" layer="27"/>
 <attribute name="PARTNO" value="RC0603FR-074K7L" x="14.605" y="17.145" size="1.778" layer="27" display="off"/>
@@ -2360,17 +2360,17 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="18.288" y="14.2875" size="0.4064" layer="27" ratio="10"/>
 <attribute name="BOM" value="EXCLUDE" x="17.145" y="14.9225" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R3" library="rcl" package="R0603" value="4.7k" x="4.1275" y="14.605" smashed="yes" rot="R180">
+<element name="R3" library="rcl" package="R0603" value="5.6k" x="4.1275" y="14.605" smashed="yes" rot="R180">
 <attribute name="NAME" x="2.54" y="15.24" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="4.7625" y="16.51" size="1.27" layer="27" rot="R180"/>
 <attribute name="PARTNO" value="RC0603FR-074K7L" x="4.1275" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R6" library="rcl" package="R0603" value="4.7k" x="4.1275" y="12.3825" smashed="yes" rot="R180">
+<element name="R6" library="rcl" package="R0603" value="5.6k" x="4.1275" y="12.3825" smashed="yes" rot="R180">
 <attribute name="NAME" x="2.54" y="13.0175" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="4.7625" y="14.2875" size="1.27" layer="27" rot="R180"/>
 <attribute name="PARTNO" value="RC0603FR-074K7L" x="4.1275" y="12.3825" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R8" library="rcl" package="R0603" value="4.7k" x="4.1275" y="10.16" smashed="yes" rot="R180">
+<element name="R8" library="rcl" package="R0603" value="5.6k" x="4.1275" y="10.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="2.54" y="10.795" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="4.7625" y="12.065" size="1.27" layer="27" rot="R180"/>
 <attribute name="PARTNO" value="RC0603FR-074K7L" x="4.1275" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
