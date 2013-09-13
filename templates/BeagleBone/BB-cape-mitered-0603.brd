@@ -2347,15 +2347,15 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="13.97" y="8.89" size="1.27" layer="27"/>
 <attribute name="PARTNO" value="RC0603FR-074K7L" x="14.605" y="10.795" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R6" library="rcl" package="R0603" value="5.6k" x="14.605" y="8.5725" smashed="yes">
-<attribute name="NAME" x="15.875" y="7.9375" size="1.016" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="13.97" y="6.6675" size="1.27" layer="27"/>
-<attribute name="PARTNO" value="RC0603FR-074K7L" x="14.605" y="8.5725" size="1.778" layer="27" display="off"/>
+<element name="R6" library="rcl" package="R0603" value="5.6k" x="14.605" y="7.9375" smashed="yes">
+<attribute name="NAME" x="13.97" y="8.5725" size="1.016" layer="25" font="vector"/>
+<attribute name="VALUE" x="13.97" y="6.0325" size="1.27" layer="27"/>
+<attribute name="PARTNO" value="RC0603FR-074K7L" x="14.605" y="7.9375" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R4" library="rcl" package="R0603" value="5.6k" x="13.6525" y="15.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.2875" y="16.1925" size="1.016" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="15.5575" y="14.605" size="1.27" layer="27" rot="R90"/>
-<attribute name="PARTNO" value="RC0603FR-074K7L" x="13.6525" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R4" library="rcl" package="R0603" value="5.6k" x="14.605" y="13.6525" smashed="yes">
+<attribute name="NAME" x="13.97" y="14.2875" size="1.016" layer="25" font="vector"/>
+<attribute name="VALUE" x="13.97" y="11.7475" size="1.27" layer="27"/>
+<attribute name="PARTNO" value="RC0603FR-074K7L" x="14.605" y="13.6525" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP2" library="logic-supply" package="TEST_POINT" value="TEST_POINT" x="11.43" y="15.24" smashed="yes">
 <attribute name="NAME" x="10.50925" y="16.22425" size="1.016" layer="25" font="vector"/>
@@ -2409,7 +2409,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="1.055" y1="9.2075" x2="1.055" y2="12.065" width="0.3048" layer="1"/>
 <wire x1="1.055" y1="12.065" x2="1.055" y2="14.9225" width="0.3048" layer="1"/>
 <wire x1="11.5325" y1="13.3613" x2="11.3284" y2="13.335" width="0.3048" layer="1"/>
-<wire x1="15.455" y1="8.5725" x2="15.455" y2="10.795" width="0.3048" layer="1"/>
+<wire x1="15.455" y1="7.9375" x2="15.455" y2="10.795" width="0.3048" layer="1"/>
 <contactref element="BB1" pad="P9.3"/>
 <contactref element="BB1" pad="P9.4"/>
 <contactref element="BB1" pad="P9.3"/>
@@ -2418,17 +2418,17 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="1.055" y1="14.9225" x2="1.055" y2="16.6125" width="0.3048" layer="1"/>
 <wire x1="1.055" y1="16.6125" x2="2.2225" y2="17.78" width="0.3048" layer="1"/>
 <wire x1="2.2225" y1="17.78" x2="8.89" y2="17.78" width="0.3048" layer="1"/>
-<wire x1="8.89" y1="17.78" x2="13.6525" y2="17.78" width="0.3048" layer="1"/>
-<wire x1="13.6525" y1="17.78" x2="14.2875" y2="17.78" width="0.3048" layer="1"/>
+<wire x1="8.89" y1="17.78" x2="14.2875" y2="17.78" width="0.3048" layer="1"/>
 <wire x1="9.105" y1="15.24" x2="8.89" y2="15.24" width="0.3048" layer="1"/>
 <wire x1="8.89" y1="15.24" x2="8.89" y2="17.78" width="0.3048" layer="1"/>
 <wire x1="11.3284" y1="13.335" x2="11.01" y2="13.335" width="0.3048" layer="1"/>
 <wire x1="11.01" y1="13.335" x2="9.105" y2="15.24" width="0.3048" layer="1"/>
-<wire x1="21.59" y1="4.445" x2="17.4625" y2="8.5725" width="0.3048" layer="1"/>
-<wire x1="17.4625" y1="8.5725" x2="15.455" y2="8.5725" width="0.3048" layer="1"/>
-<wire x1="15.455" y1="10.795" x2="15.455" y2="16.6125" width="0.3048" layer="1"/>
+<wire x1="15.455" y1="10.795" x2="15.455" y2="13.335" width="0.3048" layer="1"/>
+<wire x1="15.455" y1="13.6525" x2="15.455" y2="16.6125" width="0.3048" layer="1"/>
 <wire x1="15.455" y1="16.6125" x2="14.2875" y2="17.78" width="0.3048" layer="1"/>
-<wire x1="13.6525" y1="16.09" x2="13.6525" y2="17.78" width="0.3048" layer="1"/>
+<wire x1="15.455" y1="7.9375" x2="18.0975" y2="7.9375" width="0.3048" layer="1"/>
+<wire x1="18.0975" y1="7.9375" x2="21.59" y2="4.445" width="0.3048" layer="1"/>
+<wire x1="15.455" y1="13.6525" x2="15.455" y2="13.335" width="0.3048" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="C1" pad="2"/>
@@ -2476,16 +2476,19 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="I2C2_SDA">
 <contactref element="IC1" pad="5"/>
 <contactref element="R6" pad="1"/>
-<wire x1="11.3284" y1="9.525" x2="12.8025" y2="9.525" width="0.3048" layer="1"/>
-<wire x1="12.8025" y1="9.525" x2="13.755" y2="8.5725" width="0.3048" layer="1"/>
 <wire x1="41.91" y1="4.1275" x2="40.9575" y2="3.175" width="0.3048" layer="1"/>
 <wire x1="40.9575" y1="3.175" x2="18.415" y2="3.175" width="0.3048" layer="1"/>
-<wire x1="13.6525" y1="8.7875" x2="13.755" y2="8.5725" width="0.3048" layer="1"/>
 <contactref element="BB1" pad="P9.20"/>
 <wire x1="41.91" y1="4.1275" x2="41.91" y2="4.445" width="0.3048" layer="1"/>
 <wire x1="18.415" y1="3.175" x2="17.78" y2="3.81" width="0.3048" layer="1"/>
-<wire x1="17.78" y1="3.81" x2="17.78" y2="4.5475" width="0.3048" layer="1"/>
-<wire x1="17.78" y1="4.5475" x2="13.755" y2="8.5725" width="0.3048" layer="1"/>
+<wire x1="17.78" y1="3.81" x2="17.78" y2="4.7625" width="0.3048" layer="1"/>
+<wire x1="17.78" y1="4.7625" x2="16.1925" y2="6.35" width="0.3048" layer="1"/>
+<wire x1="16.1925" y1="6.35" x2="14.605" y2="6.35" width="0.3048" layer="1"/>
+<wire x1="14.605" y1="6.35" x2="13.97" y2="6.985" width="0.3048" layer="1"/>
+<wire x1="13.97" y1="6.985" x2="13.97" y2="7.7225" width="0.3048" layer="1"/>
+<wire x1="13.97" y1="7.7225" x2="13.755" y2="7.9375" width="0.3048" layer="1"/>
+<wire x1="11.3284" y1="9.525" x2="12.1675" y2="9.525" width="0.3048" layer="1"/>
+<wire x1="12.1675" y1="9.525" x2="13.755" y2="7.9375" width="0.3048" layer="1"/>
 </signal>
 <signal name="I2C2_SCL">
 <contactref element="IC1" pad="6"/>
@@ -2497,9 +2500,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="41.91" y1="1.905" x2="41.91" y2="1.5875" width="0.3048" layer="1"/>
 <wire x1="18.0975" y1="0.635" x2="16.8275" y2="1.905" width="0.3048" layer="1"/>
 <wire x1="16.8275" y1="1.905" x2="16.8275" y2="4.1275" width="0.3048" layer="1"/>
-<wire x1="16.8275" y1="4.1275" x2="14.605" y2="6.35" width="0.3048" layer="1"/>
-<wire x1="14.605" y1="6.35" x2="11.7475" y2="6.35" width="0.3048" layer="1"/>
-<wire x1="11.7475" y1="6.35" x2="9.525" y2="8.5725" width="0.3048" layer="1"/>
+<wire x1="16.8275" y1="4.1275" x2="15.5575" y2="5.3975" width="0.3048" layer="1"/>
+<wire x1="15.5575" y1="5.3975" x2="12.7" y2="5.3975" width="0.3048" layer="1"/>
+<wire x1="12.7" y1="5.3975" x2="9.525" y2="8.5725" width="0.3048" layer="1"/>
 <wire x1="9.525" y1="8.5725" x2="9.525" y2="10.16" width="0.3048" layer="1"/>
 <wire x1="9.525" y1="10.16" x2="10.16" y2="10.795" width="0.3048" layer="1"/>
 <wire x1="10.16" y1="10.795" x2="11.3284" y2="10.795" width="0.3048" layer="1"/>
@@ -2507,12 +2510,11 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="WP">
 <contactref element="IC1" pad="7"/>
 <contactref element="TP2" pad="P$1"/>
-<wire x1="13.6525" y1="13.0175" x2="12.7" y2="12.065" width="0.3048" layer="1"/>
-<wire x1="12.7" y1="12.065" x2="11.3284" y2="12.065" width="0.3048" layer="1"/>
 <contactref element="R4" pad="1"/>
-<wire x1="13.6525" y1="14.39" x2="13.6525" y2="13.0175" width="0.3048" layer="1"/>
-<wire x1="13.6525" y1="14.39" x2="12.28" y2="14.39" width="0.3048" layer="1"/>
-<wire x1="12.28" y1="14.39" x2="11.43" y2="15.24" width="0.3048" layer="1"/>
+<wire x1="11.43" y1="15.24" x2="12.1675" y2="15.24" width="0.3048" layer="1"/>
+<wire x1="12.1675" y1="15.24" x2="13.755" y2="13.6525" width="0.3048" layer="1"/>
+<wire x1="11.3284" y1="12.065" x2="12.1675" y2="12.065" width="0.3048" layer="1"/>
+<wire x1="12.1675" y1="12.065" x2="13.755" y2="13.6525" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="IC1" pad="1"/>
