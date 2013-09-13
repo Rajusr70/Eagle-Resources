@@ -13429,43 +13429,43 @@ BBH1 outdated, use BBH2 or BBH3 only</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="IC8" library="logic-supply" deviceset="EEPROM-I2C" device="SMD">
+<part name="IC1" library="logic-supply" deviceset="EEPROM-I2C" device="SMD">
 <attribute name="PARTNO" value="CAT24C256WI"/>
 </part>
 <part name="U$3" library="logic-supply" deviceset="FRAME_A3" device=""/>
 <part name="U$4" library="logic-supply" deviceset="LOGO-LGX" device="_LARGE" value="LOGO-LGX_LARGE"/>
-<part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="5.6k">
-<attribute name="PARTNO" value="RC0603FR-074K7L"/>
-</part>
-<part name="R11" library="rcl" deviceset="R-US_" device="R0603" value="5.6k">
-<attribute name="PARTNO" value="RC0603FR-074K7L"/>
-</part>
-<part name="P+6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="5.6k">
-<attribute name="PARTNO" value="RC0603FR-074K7L"/>
-</part>
-<part name="TP1" library="logic-supply" deviceset="TEST_POINT" device=""/>
-<part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="5.6k">
+<part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="5.6k">
 <attribute name="PARTNO" value="RC0603FR-074K7L"/>
 </part>
 <part name="R6" library="rcl" deviceset="R-US_" device="R0603" value="5.6k">
 <attribute name="PARTNO" value="RC0603FR-074K7L"/>
 </part>
-<part name="R8" library="rcl" deviceset="R-US_" device="R0603" value="5.6k">
+<part name="P+6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
+<part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="5.6k">
+<attribute name="PARTNO" value="RC0603FR-074K7L"/>
+</part>
+<part name="TP2" library="logic-supply" deviceset="TEST_POINT" device=""/>
+<part name="GND9" library="supply1" deviceset="GND" device=""/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="5.6k">
+<attribute name="PARTNO" value="RC0603FR-074K7L"/>
+</part>
+<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="5.6k">
+<attribute name="PARTNO" value="RC0603FR-074K7L"/>
+</part>
+<part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="5.6k">
 <attribute name="PARTNO" value="RC0603FR-074K7L"/>
 </part>
 <part name="P+7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="C13" library="rcl" deviceset="C-US" device="C0603" value="0.1uF">
+<part name="C1" library="rcl" deviceset="C-US" device="C0603" value="0.1uF">
 <attribute name="PARTNO" value="C1608X7R1E104K080AA"/>
 </part>
-<part name="S3" library="logic-supply" deviceset="SW_DIP-2P" device="">
+<part name="S1" library="logic-supply" deviceset="SW_DIP-2P" device="">
 <attribute name="PARTNO" value="EHS102LD"/>
 </part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="BB1" library="logic-supply" deviceset="BBH" device="2"/>
 <part name="U$7" library="logic-supply" deviceset="OSHW-LOGO" device="M" value="OSHW-LOGOM"/>
-<part name="TP2" library="logic-supply" deviceset="TEST_POINT" device="">
+<part name="TP1" library="logic-supply" deviceset="TEST_POINT" device="">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
@@ -13498,47 +13498,47 @@ BBH1 outdated, use BBH2 or BBH3 only</description>
 <instance part="GND3" gate="1" x="38.1" y="15.24"/>
 <instance part="GND4" gate="1" x="35.56" y="162.56"/>
 <instance part="GND5" gate="1" x="121.92" y="162.56"/>
-<instance part="IC8" gate="G$1" x="83.82" y="218.44">
+<instance part="IC1" gate="G$1" x="83.82" y="218.44">
 <attribute name="PARTNO" x="83.82" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$3" gate="G$1" x="0" y="0"/>
 <instance part="U$3" gate="G$2" x="276.86" y="5.08"/>
 <instance part="U$4" gate="G$1" x="274.32" y="7.62" rot="R90"/>
-<instance part="R7" gate="G$1" x="129.54" y="231.14" rot="R90">
+<instance part="R5" gate="G$1" x="129.54" y="231.14" rot="R90">
 <attribute name="PARTNO" x="129.54" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R11" gate="G$1" x="139.7" y="231.14" rot="R90">
+<instance part="R6" gate="G$1" x="139.7" y="231.14" rot="R90">
 <attribute name="PARTNO" x="139.7" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+6" gate="G$1" x="139.7" y="236.22"/>
-<instance part="R2" gate="G$1" x="111.76" y="231.14" rot="R90">
+<instance part="R4" gate="G$1" x="111.76" y="231.14" rot="R90">
 <attribute name="PARTNO" x="111.76" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="TP1" gate="G$1" x="119.38" y="223.52" smashed="yes" rot="R90">
+<instance part="TP2" gate="G$1" x="119.38" y="223.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="119.38" y="228.6" size="1.778" layer="95"/>
 </instance>
 <instance part="GND9" gate="1" x="20.32" y="203.2"/>
 <instance part="R3" gate="G$1" x="53.34" y="231.14" rot="R90">
 <attribute name="PARTNO" x="53.34" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R6" gate="G$1" x="43.18" y="231.14" rot="R90">
+<instance part="R2" gate="G$1" x="43.18" y="231.14" rot="R90">
 <attribute name="PARTNO" x="43.18" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R8" gate="G$1" x="33.02" y="231.14" rot="R90">
+<instance part="R1" gate="G$1" x="33.02" y="231.14" rot="R90">
 <attribute name="PARTNO" x="33.02" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+7" gate="G$1" x="33.02" y="238.76"/>
-<instance part="C13" gate="G$1" x="20.32" y="223.52">
+<instance part="C1" gate="G$1" x="20.32" y="223.52">
 <attribute name="PARTNO" x="20.32" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="S3" gate="G$1" x="33.02" y="208.28">
+<instance part="S1" gate="G$1" x="33.02" y="208.28">
 <attribute name="PARTNO" x="33.02" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND14" gate="1" x="68.58" y="210.82"/>
 <instance part="BB1" gate="P8" x="78.74" y="132.08"/>
 <instance part="BB1" gate="P9" x="78.74" y="53.34"/>
 <instance part="U$7" gate="G$1" x="370.84" y="38.1"/>
-<instance part="TP2" gate="G$1" x="83.82" y="238.76" smashed="yes" rot="R90">
+<instance part="TP1" gate="G$1" x="83.82" y="238.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="83.82" y="243.84" size="1.778" layer="95"/>
 </instance>
 <instance part="GND6" gate="1" x="83.82" y="236.22"/>
@@ -13558,13 +13558,13 @@ BBH1 outdated, use BBH2 or BBH3 only</description>
 <pinref part="BB1" gate="P9" pin="3.3V@2"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="236.22" x2="139.7" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="G$1" pin="3.3V"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="236.22" x2="111.76" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="IC8" gate="G$1" pin="VCC"/>
+<pinref part="IC1" gate="G$1" pin="VCC"/>
 <wire x1="111.76" y1="236.22" x2="96.52" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="236.22" x2="96.52" y2="223.52" width="0.1524" layer="91"/>
 <junction x="111.76" y="236.22"/>
@@ -13573,15 +13573,15 @@ BBH1 outdated, use BBH2 or BBH3 only</description>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="236.22" x2="43.18" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="236.22" x2="33.02" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="G$1" pin="3.3V"/>
 <wire x1="33.02" y1="236.22" x2="33.02" y2="238.76" width="0.1524" layer="91"/>
 <junction x="33.02" y="236.22"/>
 <junction x="43.18" y="236.22"/>
-<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="236.22" x2="20.32" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="236.22" x2="20.32" y2="226.06" width="0.1524" layer="91"/>
 </segment>
@@ -13635,25 +13635,25 @@ BBH1 outdated, use BBH2 or BBH3 only</description>
 <pinref part="BB1" gate="P8" pin="GND@2"/>
 </segment>
 <segment>
-<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="205.74" x2="20.32" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="S3" gate="G$1" pin="1A"/>
+<pinref part="S1" gate="G$1" pin="1A"/>
 <wire x1="20.32" y1="210.82" x2="20.32" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="210.82" x2="20.32" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="S3" gate="G$1" pin="2A"/>
+<pinref part="S1" gate="G$1" pin="2A"/>
 <wire x1="25.4" y1="205.74" x2="20.32" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <junction x="20.32" y="205.74"/>
 <junction x="20.32" y="210.82"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="VSS"/>
+<pinref part="IC1" gate="G$1" pin="VSS"/>
 <wire x1="71.12" y1="215.9" x2="68.58" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="68.58" y1="215.9" x2="68.58" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="TP2" gate="G$1" pin="P$1"/>
+<pinref part="TP1" gate="G$1" pin="P$1"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -13676,10 +13676,10 @@ BBH1 outdated, use BBH2 or BBH3 only</description>
 <pinref part="BB1" gate="P9" pin="GPIO0_12"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="SDA"/>
+<pinref part="IC1" gate="G$1" pin="SDA"/>
 <label x="99.06" y="215.9" size="1.778" layer="95"/>
 <wire x1="96.52" y1="215.9" x2="139.7" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="226.06" x2="139.7" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13690,32 +13690,32 @@ BBH1 outdated, use BBH2 or BBH3 only</description>
 <pinref part="BB1" gate="P9" pin="GPIO0_13"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="SCL"/>
+<pinref part="IC1" gate="G$1" pin="SCL"/>
 <label x="99.06" y="218.44" size="1.778" layer="95"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="218.44" x2="129.54" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="218.44" x2="129.54" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="WP" class="0">
 <segment>
-<pinref part="IC8" gate="G$1" pin="WP"/>
+<pinref part="IC1" gate="G$1" pin="WP"/>
 <wire x1="96.52" y1="220.98" x2="111.76" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="TP1" gate="G$1" pin="P$1"/>
+<pinref part="TP2" gate="G$1" pin="P$1"/>
 <wire x1="111.76" y1="220.98" x2="119.38" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="220.98" x2="119.38" y2="223.52" width="0.1524" layer="91"/>
 <label x="99.06" y="220.98" size="1.778" layer="95"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="226.06" x2="111.76" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="IC8" gate="G$1" pin="A0"/>
+<pinref part="IC1" gate="G$1" pin="A0"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="223.52" x2="53.34" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="223.52" x2="53.34" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="S3" gate="G$1" pin="1B"/>
+<pinref part="S1" gate="G$1" pin="1B"/>
 <wire x1="40.64" y1="210.82" x2="53.34" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="210.82" x2="53.34" y2="223.52" width="0.1524" layer="91"/>
 <junction x="53.34" y="223.52"/>
@@ -13723,11 +13723,11 @@ BBH1 outdated, use BBH2 or BBH3 only</description>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="IC8" gate="G$1" pin="A1"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="A1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="220.98" x2="43.18" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="220.98" x2="43.18" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="S3" gate="G$1" pin="2B"/>
+<pinref part="S1" gate="G$1" pin="2B"/>
 <wire x1="40.64" y1="205.74" x2="43.18" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="205.74" x2="43.18" y2="220.98" width="0.1524" layer="91"/>
 <junction x="43.18" y="220.98"/>
@@ -13735,8 +13735,8 @@ BBH1 outdated, use BBH2 or BBH3 only</description>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="IC8" gate="G$1" pin="A2"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="A2"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="218.44" x2="33.02" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="218.44" x2="33.02" y2="226.06" width="0.1524" layer="91"/>
 </segment>
