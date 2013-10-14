@@ -6798,16 +6798,16 @@ Source: http://www.maxim-ic.com/package_drawings/21-0041B.pdf</description>
 <pad name="P9.46" x="4.445" y="74.93" drill="1" diameter="1.6764" rot="R90"/>
 <rectangle x1="10.795" y1="69.215" x2="26.035" y2="86.36" layer="39" rot="R180"/>
 <rectangle x1="4.445" y1="0" x2="14.605" y2="11.43" layer="39" rot="R180"/>
-<pad name="DEBUG_6" x="8.16" y="41.91" drill="1.016" rot="R180"/>
-<pad name="DEBUG_5" x="8.16" y="44.45" drill="1.016" rot="R180"/>
-<pad name="DEBUG_4" x="8.16" y="46.99" drill="1.016" rot="R180"/>
-<pad name="DEBUG_3" x="8.16" y="49.53" drill="1.016" rot="R180"/>
-<pad name="DEBUG_2" x="8.16" y="52.07" drill="1.016" rot="R180"/>
-<pad name="DEBUG_1" x="8.16" y="54.61" drill="1.016" rot="R180"/>
-<wire x1="6.89" y1="40.64" x2="9.43" y2="40.64" width="0.127" layer="21"/>
-<wire x1="9.43" y1="40.64" x2="9.43" y2="55.88" width="0.127" layer="21"/>
-<wire x1="9.43" y1="55.88" x2="6.89" y2="55.88" width="0.127" layer="21"/>
-<wire x1="6.89" y1="55.88" x2="6.89" y2="40.64" width="0.127" layer="21"/>
+<pad name="DEBUG_1" x="7.765" y="41.91" drill="1.016" rot="R180"/>
+<pad name="DEBUG_2" x="7.765" y="44.45" drill="1.016" rot="R180"/>
+<pad name="DEBUG_3" x="7.765" y="46.99" drill="1.016" rot="R180"/>
+<pad name="DEBUG_4" x="7.765" y="49.53" drill="1.016" rot="R180"/>
+<pad name="DEBUG_5" x="7.765" y="52.07" drill="1.016" rot="R180"/>
+<pad name="DEBUG_6" x="7.765" y="54.61" drill="1.016" rot="R180"/>
+<wire x1="6.495" y1="40.64" x2="9.035" y2="40.64" width="0.127" layer="21"/>
+<wire x1="9.035" y1="40.64" x2="9.035" y2="55.88" width="0.127" layer="21"/>
+<wire x1="9.035" y1="55.88" x2="6.495" y2="55.88" width="0.127" layer="21"/>
+<wire x1="6.495" y1="55.88" x2="6.495" y2="40.64" width="0.127" layer="21"/>
 <wire x1="0" y1="73.66" x2="0" y2="6.35" width="0.127" layer="52" style="shortdash"/>
 <wire x1="54.61" y1="73.66" x2="54.61" y2="6.985" width="0.127" layer="52" style="shortdash"/>
 <wire x1="54.61" y1="6.985" x2="54.61" y2="6.35" width="0.127" layer="52" style="shortdash"/>
@@ -7327,16 +7327,16 @@ Source: http://www.maxim-ic.com/package_drawings/21-0041B.pdf</description>
 <pad name="P9.46" x="4.445" y="74.93" drill="1" diameter="1.6764" rot="R90"/>
 <rectangle x1="10.795" y1="69.215" x2="26.035" y2="86.36" layer="39" rot="R180"/>
 <rectangle x1="4.445" y1="0" x2="14.605" y2="11.43" layer="39" rot="R180"/>
-<pad name="DEBUG_6" x="8.16" y="41.91" drill="1.016" rot="R180"/>
-<pad name="DEBUG_5" x="8.16" y="44.45" drill="1.016" rot="R180"/>
-<pad name="DEBUG_4" x="8.16" y="46.99" drill="1.016" rot="R180"/>
-<pad name="DEBUG_3" x="8.16" y="49.53" drill="1.016" rot="R180"/>
-<pad name="DEBUG_2" x="8.16" y="52.07" drill="1.016" rot="R180"/>
-<pad name="DEBUG_1" x="8.16" y="54.61" drill="1.016" rot="R180"/>
-<wire x1="6.89" y1="40.64" x2="9.43" y2="40.64" width="0.127" layer="21"/>
-<wire x1="9.43" y1="40.64" x2="9.43" y2="55.88" width="0.127" layer="21"/>
-<wire x1="9.43" y1="55.88" x2="6.89" y2="55.88" width="0.127" layer="21"/>
-<wire x1="6.89" y1="55.88" x2="6.89" y2="40.64" width="0.127" layer="21"/>
+<pad name="DEBUG_1" x="7.765" y="41.91" drill="1.016" rot="R180"/>
+<pad name="DEBUG_2" x="7.765" y="44.45" drill="1.016" rot="R180"/>
+<pad name="DEBUG_3" x="7.765" y="46.99" drill="1.016" rot="R180"/>
+<pad name="DEBUG_4" x="7.765" y="49.53" drill="1.016" rot="R180"/>
+<pad name="DEBUG_5" x="7.765" y="52.07" drill="1.016" rot="R180"/>
+<pad name="DEBUG_6" x="7.765" y="54.61" drill="1.016" rot="R180"/>
+<wire x1="6.495" y1="40.64" x2="9.035" y2="40.64" width="0.127" layer="21"/>
+<wire x1="9.035" y1="40.64" x2="9.035" y2="55.88" width="0.127" layer="21"/>
+<wire x1="9.035" y1="55.88" x2="6.495" y2="55.88" width="0.127" layer="21"/>
+<wire x1="6.495" y1="55.88" x2="6.495" y2="40.64" width="0.127" layer="21"/>
 <wire x1="0" y1="73.66" x2="0" y2="6.35" width="0.127" layer="52" style="shortdash"/>
 <wire x1="54.61" y1="73.66" x2="54.61" y2="6.985" width="0.127" layer="52" style="shortdash"/>
 <wire x1="54.61" y1="6.985" x2="54.61" y2="6.35" width="0.127" layer="52" style="shortdash"/>
@@ -8022,6 +8022,34 @@ Source: http://www.maxim-ic.com/package_drawings/21-0041B.pdf</description>
 <wire x1="-2.25" y1="-2.25" x2="-2.25" y2="2.25" width="0.127" layer="21"/>
 <text x="-2" y="4" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2" y="-5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="TEST_POINT_PTH">
+<pad name="P$1" x="0" y="0" drill="0.9"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="TM3362">
+<description>Jaywei TM3362 trim potentiometer</description>
+<pad name="1" x="-2.5" y="0.2" drill="1"/>
+<pad name="3" x="2.5" y="0.2" drill="1"/>
+<pad name="2" x="0" y="2.7" drill="1"/>
+<wire x1="-3.45" y1="3.4" x2="-3.45" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="3.45" y1="3.4" x2="3.45" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="-3.45" y1="3.4" x2="3.45" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-3.45" y1="-3.6" x2="3.45" y2="-3.6" width="0.127" layer="21"/>
+<circle x="-2" y="-2" radius="0.8" width="0.127" layer="21"/>
+</package>
+<package name="EVN5">
+<description>Panasonic EVN5 trim pot</description>
+<smd name="B" x="0" y="1.5" dx="1.2" dy="1.2" layer="1"/>
+<smd name="A" x="-1" y="-1.6" dx="1.2" dy="1.2" layer="1"/>
+<smd name="C" x="1" y="-1.6" dx="1.2" dy="1.2" layer="1"/>
+<wire x1="-1.55" y1="1.8" x2="-1.55" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="1.55" y1="1.8" x2="1.55" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-1.8" x2="1.55" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="1.8" x2="1.55" y2="1.8" width="0.127" layer="21"/>
+<text x="-2" y="3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="-4" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -15004,6 +15032,24 @@ Source: http://www.maxim-ic.com/package_drawings/21-0041B.pdf</description>
 <pin name="3" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
 <pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="AD5243">
+<pin name="A1" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="W1" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="B1" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="A2" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="W2" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="B2" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="VDD" x="-12.7" y="7.62" length="short"/>
+<pin name="GND" x="-12.7" y="-7.62" length="short"/>
+<pin name="SDA" x="-12.7" y="0" length="short"/>
+<pin name="SCL" x="-12.7" y="-2.54" length="short"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-10.16" y="11.43" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ADM3054" prefix="IC">
@@ -15881,7 +15927,7 @@ BBH1 outdated, use BBH2 or BBH3 only</description>
 <gate name="G$1" symbol="TEST_POINT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TEST_POINT">
+<device name="_SMT" package="TEST_POINT">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
@@ -15889,6 +15935,14 @@ BBH1 outdated, use BBH2 or BBH3 only</description>
 <technology name="">
 <attribute name="BOM" value="EXCLUDE" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="_PTH" package="TEST_POINT_PTH">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -17510,6 +17564,62 @@ Part from adafruit.lbr</description>
 <connect gate="G$1" pin="1" pad="3"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_TM3362" package="TM3362">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_EVN5" package="EVN5">
+<connects>
+<connect gate="G$1" pin="1" pad="A"/>
+<connect gate="G$1" pin="2" pad="B"/>
+<connect gate="G$1" pin="3" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LOGO-LS-NOSILK">
+<gates>
+<gate name="G$1" symbol="LOGO-LS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AD5243" prefix="IC">
+<gates>
+<gate name="G$1" symbol="AD5243" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MSOP10">
+<connects>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="A2" pad="8"/>
+<connect gate="G$1" pin="B1" pad="1"/>
+<connect gate="G$1" pin="B2" pad="9"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="6"/>
+<connect gate="G$1" pin="SDA" pad="7"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+<connect gate="G$1" pin="W1" pad="10"/>
+<connect gate="G$1" pin="W2" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
