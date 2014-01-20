@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -6921,6 +6921,7 @@ Source: http://www.maxim-ic.com/package_drawings/21-0041B.pdf</description>
 <wire x1="38.735" y1="6.985" x2="54.61" y2="6.985" width="0.127" layer="52" style="shortdash"/>
 <text x="4.1275" y="17.4625" size="1.27" layer="25" rot="R180">P9</text>
 <text x="52.705" y="17.4625" size="1.27" layer="25" rot="R180">P8</text>
+<text x="9.2075" y="47.3075" size="1.27" layer="25" rot="R270">DEBUG</text>
 </package>
 <package name="TSSOP28_PAD">
 <smd name="1" x="-4.225" y="-3.05" dx="0.45" dy="1.65" layer="1"/>
@@ -8158,6 +8159,80 @@ Source: http://www.maxim-ic.com/package_drawings/21-0041B.pdf</description>
 <pad name="3" x="-3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
 <pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
 <text x="-2.54" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+</package>
+<package name="HEADER_3X4_RA">
+<pad name="1" x="0" y="0" drill="0.8" shape="square"/>
+<pad name="2" x="0" y="2.54" drill="0.8"/>
+<pad name="3" x="0" y="5.08" drill="0.8"/>
+<pad name="4" x="2.54" y="0" drill="0.8"/>
+<pad name="5" x="2.54" y="2.54" drill="0.8"/>
+<pad name="6" x="2.54" y="5.08" drill="0.8"/>
+<pad name="7" x="5.08" y="0" drill="0.8"/>
+<pad name="8" x="5.08" y="2.54" drill="0.8"/>
+<pad name="9" x="5.08" y="5.08" drill="0.8"/>
+<pad name="10" x="7.62" y="0" drill="0.8"/>
+<pad name="11" x="7.62" y="2.54" drill="0.8"/>
+<pad name="12" x="7.62" y="5.08" drill="0.8"/>
+<wire x1="-1.27" y1="-3.9" x2="1.27" y2="-3.9" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-3.9" x2="3.81" y2="-3.9" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-3.9" x2="6.35" y2="-3.9" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-3.9" x2="8.89" y2="-3.9" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.4" x2="1.27" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.4" x2="3.81" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-1.4" x2="6.35" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-1.4" x2="8.89" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-3.9" x2="-1.27" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-3.9" x2="8.89" y2="-1.4" width="0.127" layer="21"/>
+<rectangle x1="-0.25" y1="-7.8" x2="0.25" y2="-3.9" layer="51"/>
+<rectangle x1="2.29" y1="-7.8" x2="2.79" y2="-3.9" layer="51"/>
+<rectangle x1="4.83" y1="-7.8" x2="5.33" y2="-3.9" layer="51"/>
+<rectangle x1="7.37" y1="-7.8" x2="7.87" y2="-3.9" layer="51"/>
+<wire x1="1.27" y1="-3.9" x2="1.27" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-3.9" x2="3.81" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-3.9" x2="6.35" y2="-1.4" width="0.127" layer="21"/>
+<text x="-1.27" y="-0.725" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="10.16" y="-0.725" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="XBEE">
+<wire x1="-5" y1="27.6" x2="5" y2="27.6" width="0.2032" layer="51"/>
+<wire x1="-12.25" y1="21.25" x2="-5" y2="27.6" width="0.2032" layer="51"/>
+<wire x1="12.25" y1="21.25" x2="5" y2="27.6" width="0.2032" layer="51"/>
+<wire x1="9.75" y1="21.25" x2="12.25" y2="21.25" width="0.2032" layer="21"/>
+<wire x1="12.25" y1="21.25" x2="12.25" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="12.25" y1="0.75" x2="9.75" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="9.75" y1="21.25" x2="9.75" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="-9.75" y1="21.25" x2="-12.25" y2="21.25" width="0.2032" layer="21"/>
+<wire x1="-12.25" y1="21.25" x2="-12.25" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="-12.25" y1="0.75" x2="-9.75" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="-9.75" y1="21.25" x2="-9.75" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="-12.25" y1="0.75" x2="-12.25" y2="0" width="0.2032" layer="51"/>
+<wire x1="12.25" y1="0.75" x2="12.25" y2="0" width="0.2032" layer="51"/>
+<wire x1="-12.25" y1="0" x2="12.25" y2="0" width="0.2032" layer="51"/>
+<wire x1="12.25" y1="0" x2="12.25" y2="-6.25" width="0.2032" layer="51"/>
+<wire x1="-12.25" y1="0" x2="-12.25" y2="-6.25" width="0.2032" layer="51"/>
+<wire x1="-12.25" y1="-6.25" x2="12.25" y2="-6.25" width="0.2032" layer="51"/>
+<pad name="10" x="-11" y="2" drill="0.8" diameter="1.524"/>
+<pad name="9" x="-11" y="4" drill="0.8" diameter="1.524"/>
+<pad name="8" x="-11" y="6" drill="0.8" diameter="1.524"/>
+<pad name="7" x="-11" y="8" drill="0.8" diameter="1.524"/>
+<pad name="6" x="-11" y="10" drill="0.8" diameter="1.524"/>
+<pad name="5" x="-11" y="12" drill="0.8" diameter="1.524"/>
+<pad name="4" x="-11" y="14" drill="0.8" diameter="1.524"/>
+<pad name="3" x="-11" y="16" drill="0.8" diameter="1.524"/>
+<pad name="2" x="-11" y="18" drill="0.8" diameter="1.524"/>
+<pad name="1" x="-11" y="20" drill="0.8" diameter="1.524"/>
+<pad name="11" x="11" y="2" drill="0.8" diameter="1.524"/>
+<pad name="12" x="11" y="4" drill="0.8" diameter="1.524"/>
+<pad name="13" x="11" y="6" drill="0.8" diameter="1.524"/>
+<pad name="14" x="11" y="8" drill="0.8" diameter="1.524"/>
+<pad name="15" x="11" y="10" drill="0.8" diameter="1.524"/>
+<pad name="16" x="11" y="12" drill="0.8" diameter="1.524"/>
+<pad name="17" x="11" y="14" drill="0.8" diameter="1.524"/>
+<pad name="18" x="11" y="16" drill="0.8" diameter="1.524"/>
+<pad name="19" x="11" y="18" drill="0.8" diameter="1.524"/>
+<pad name="20" x="11" y="20" drill="0.8" diameter="1.524"/>
+<text x="-7.62" y="2.54" size="1.27" layer="25" rot="R90">&gt;Name</text>
+<text x="-5.08" y="2.54" size="1.27" layer="27" rot="R90">&gt;Value</text>
 </package>
 </packages>
 <symbols>
@@ -15205,6 +15280,54 @@ Source: http://www.maxim-ic.com/package_drawings/21-0041B.pdf</description>
 <text x="-7.62" y="11.43" size="1.27" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="HEADER_3X4">
+<pin name="P$1" x="-2.54" y="17.78" visible="pad" length="short" function="dot"/>
+<pin name="P$2" x="-2.54" y="15.24" visible="pad" length="short" function="dot"/>
+<pin name="P$3" x="-2.54" y="12.7" visible="pad" length="short" function="dot"/>
+<pin name="P$4" x="-2.54" y="7.62" visible="pad" length="short" function="dot"/>
+<pin name="P$5" x="-2.54" y="5.08" visible="pad" length="short" function="dot"/>
+<pin name="P$6" x="-2.54" y="2.54" visible="pad" length="short" function="dot"/>
+<pin name="P$7" x="-2.54" y="-2.54" visible="pad" length="short" function="dot"/>
+<pin name="P$8" x="-2.54" y="-5.08" visible="pad" length="short" function="dot"/>
+<pin name="P$9" x="-2.54" y="-7.62" visible="pad" length="short" function="dot"/>
+<wire x1="-5.08" y1="20.32" x2="2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="20.32" x2="2.54" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-20.32" x2="-5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-20.32" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
+<pin name="P$10" x="-2.54" y="-12.7" visible="pad" length="short" function="dot"/>
+<pin name="P$11" x="-2.54" y="-15.24" visible="pad" length="short" function="dot"/>
+<pin name="P$12" x="-2.54" y="-17.78" visible="pad" length="short" function="dot"/>
+<text x="-3.81" y="21.59" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-22.86" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="XBEE-1">
+<wire x1="-15.24" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="12.7" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="12.7" width="0.254" layer="94"/>
+<text x="-15.24" y="13.462" size="1.6764" layer="95">&gt;Name</text>
+<text x="-15.24" y="-17.78" size="1.6764" layer="96">&gt;Value</text>
+<pin name="VDD" x="-20.32" y="10.16" length="middle" direction="pwr"/>
+<pin name="DOUT" x="-20.32" y="7.62" length="middle" direction="out"/>
+<pin name="DIN" x="-20.32" y="5.08" length="middle" direction="in"/>
+<pin name="DIO12" x="-20.32" y="2.54" length="middle"/>
+<pin name="RESET" x="-20.32" y="0" length="middle" direction="in" function="dot"/>
+<pin name="RSSI" x="-20.32" y="-2.54" length="middle"/>
+<pin name="DIO11" x="-20.32" y="-5.08" length="middle"/>
+<pin name="RES@8" x="-20.32" y="-7.62" length="middle"/>
+<pin name="DTR" x="-20.32" y="-10.16" length="middle" function="dot"/>
+<pin name="GND" x="-20.32" y="-12.7" length="middle" direction="pwr"/>
+<pin name="DIO4" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="CTS" x="20.32" y="-10.16" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="DIO9" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="RES@14" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="DIO5" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="RTS" x="20.32" y="0" length="middle" direction="in" function="dot" rot="R180"/>
+<pin name="DIO3" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="DIO2" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="DIO1" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="DIO0" x="20.32" y="10.16" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ADM3054" prefix="IC">
@@ -17916,6 +18039,69 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <connect gate="S" pin="2" pad="2"/>
 <connect gate="S" pin="3" pad="3"/>
 <connect gate="S" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER_3X4" prefix="J">
+<gates>
+<gate name="G$1" symbol="HEADER_3X4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_RA" package="HEADER_3X4_RA">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$10" pad="10"/>
+<connect gate="G$1" pin="P$11" pad="11"/>
+<connect gate="G$1" pin="P$12" pad="12"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
+<connect gate="G$1" pin="P$6" pad="6"/>
+<connect gate="G$1" pin="P$7" pad="7"/>
+<connect gate="G$1" pin="P$8" pad="8"/>
+<connect gate="G$1" pin="P$9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XBEE-1">
+<description>Xbee module footprint
+&lt;br/&gt;&lt;br/&gt;
+Derived from SparkFun-RF.lbr</description>
+<gates>
+<gate name="G$1" symbol="XBEE-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XBEE">
+<connects>
+<connect gate="G$1" pin="CTS" pad="12"/>
+<connect gate="G$1" pin="DIN" pad="3"/>
+<connect gate="G$1" pin="DIO0" pad="20"/>
+<connect gate="G$1" pin="DIO1" pad="19"/>
+<connect gate="G$1" pin="DIO11" pad="7"/>
+<connect gate="G$1" pin="DIO12" pad="4"/>
+<connect gate="G$1" pin="DIO2" pad="18"/>
+<connect gate="G$1" pin="DIO3" pad="17"/>
+<connect gate="G$1" pin="DIO4" pad="11"/>
+<connect gate="G$1" pin="DIO5" pad="15"/>
+<connect gate="G$1" pin="DIO9" pad="13"/>
+<connect gate="G$1" pin="DOUT" pad="2"/>
+<connect gate="G$1" pin="DTR" pad="9"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="RES@14" pad="14"/>
+<connect gate="G$1" pin="RES@8" pad="8"/>
+<connect gate="G$1" pin="RESET" pad="5"/>
+<connect gate="G$1" pin="RSSI" pad="6"/>
+<connect gate="G$1" pin="RTS" pad="16"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
