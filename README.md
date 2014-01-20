@@ -43,7 +43,7 @@ Check out Logic Supply at http://www.logicsupply.com/
 
 Follow us on Google+ for updates and more information: https://plus.google.com/u/0/b/103613886667848850929/
 
-Created by Alexander Hiam for LGX / Logic Supply.
+Created by Alexander Hiam for Logic Supply.
 
 All included files, unless stated otherwise, are provided under the Creative Commons Attribution-ShareAlike 3.0 Unported License.   
 To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/  
