@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -8706,70 +8706,74 @@ derived from rcl.lbr</description>
 <pad name="2" x="2" y="0" drill="0.8" rot="R90"/>
 </package>
 <package name="CONNECTOR-ATX24">
-<description>Connector ATX-24 MotherBoard</description>
-<pad name="P$1" x="2.1" y="23.1" drill="1.4" shape="square"/>
-<pad name="P$2" x="2.1" y="18.9" drill="1.4"/>
-<pad name="P$3" x="2.1" y="14.7" drill="1.4"/>
-<pad name="P$4" x="2.1" y="10.5" drill="1.4"/>
-<pad name="P$5" x="2.1" y="6.3" drill="1.4"/>
-<pad name="P$6" x="2.1" y="2.1" drill="1.4"/>
-<pad name="P$7" x="2.1" y="-2.1" drill="1.4"/>
-<pad name="P$8" x="2.1" y="-6.3" drill="1.4"/>
-<pad name="P$9" x="2.1" y="-10.5" drill="1.4"/>
-<pad name="P$10" x="2.1" y="-14.7" drill="1.4"/>
-<pad name="P$11" x="2.1" y="-18.9" drill="1.4"/>
-<pad name="P$12" x="2.1" y="-23.1" drill="1.4"/>
-<pad name="P$13" x="-2.1" y="23.1" drill="1.4"/>
-<pad name="P$14" x="-2.1" y="18.9" drill="1.4"/>
-<pad name="P$15" x="-2.1" y="14.7" drill="1.4"/>
-<pad name="P$16" x="-2.1" y="10.5" drill="1.4"/>
-<pad name="P$17" x="-2.1" y="6.3" drill="1.4"/>
-<pad name="P$18" x="-2.1" y="2.1" drill="1.4"/>
-<pad name="P$19" x="-2.1" y="-2.1" drill="1.4"/>
-<pad name="P$20" x="-2.1" y="-6.3" drill="1.4"/>
-<pad name="P$21" x="-2.1" y="-10.5" drill="1.4"/>
-<pad name="P$22" x="-2.1" y="-14.7" drill="1.4"/>
-<pad name="P$23" x="-2.1" y="-18.9" drill="1.4"/>
-<pad name="P$24" x="-2.1" y="-23.1" drill="1.4"/>
-<wire x1="4.2" y1="21" x2="4.2" y2="-25.2" width="0.127" layer="21"/>
-<wire x1="4.2" y1="-25.2" x2="-4.2" y2="-25.2" width="0.127" layer="21"/>
-<wire x1="-4.2" y1="-25.2" x2="-4.2" y2="0" width="0.127" layer="21"/>
-<wire x1="-4.2" y1="0" x2="-4.2" y2="4.2" width="0.127" layer="21"/>
-<wire x1="-4.2" y1="4.2" x2="-4.2" y2="25.2" width="0.127" layer="21"/>
-<wire x1="-4.2" y1="25.2" x2="0" y2="25.2" width="0.127" layer="21"/>
-<wire x1="0" y1="25.2" x2="4.2" y2="25.2" width="0.127" layer="21"/>
-<wire x1="4.2" y1="25.2" x2="4.2" y2="21" width="0.127" layer="21"/>
-<wire x1="4.2" y1="21" x2="0" y2="21" width="0.127" layer="21"/>
-<wire x1="0" y1="21" x2="0" y2="25.2" width="0.127" layer="21"/>
-<wire x1="-4.2" y1="4.2" x2="-6.3" y2="4.2" width="0.127" layer="21"/>
+<description>Connector ATX-24 MotherBoard
+Molex 0039281243 (digikey WM3811-ND)
+Updated spacing RSTP- Apr 24, 2014</description>
+<pad name="P$1" x="2.75" y="23.1" drill="1.4" shape="square"/>
+<pad name="P$2" x="2.75" y="18.9" drill="1.4"/>
+<pad name="P$3" x="2.75" y="14.7" drill="1.4"/>
+<pad name="P$4" x="2.75" y="10.5" drill="1.4"/>
+<pad name="P$5" x="2.75" y="6.3" drill="1.4"/>
+<pad name="P$6" x="2.75" y="2.1" drill="1.4"/>
+<pad name="P$7" x="2.75" y="-2.1" drill="1.4"/>
+<pad name="P$8" x="2.75" y="-6.3" drill="1.4"/>
+<pad name="P$9" x="2.75" y="-10.5" drill="1.4"/>
+<pad name="P$10" x="2.75" y="-14.7" drill="1.4"/>
+<pad name="P$11" x="2.75" y="-18.9" drill="1.4"/>
+<pad name="P$12" x="2.75" y="-23.1" drill="1.4"/>
+<pad name="P$13" x="-2.75" y="23.1" drill="1.4"/>
+<pad name="P$14" x="-2.75" y="18.9" drill="1.4"/>
+<pad name="P$15" x="-2.75" y="14.7" drill="1.4"/>
+<pad name="P$16" x="-2.75" y="10.5" drill="1.4"/>
+<pad name="P$17" x="-2.75" y="6.3" drill="1.4"/>
+<pad name="P$18" x="-2.75" y="2.1" drill="1.4"/>
+<pad name="P$19" x="-2.75" y="-2.1" drill="1.4"/>
+<pad name="P$20" x="-2.75" y="-6.3" drill="1.4"/>
+<pad name="P$21" x="-2.75" y="-10.5" drill="1.4"/>
+<pad name="P$22" x="-2.75" y="-14.7" drill="1.4"/>
+<pad name="P$23" x="-2.75" y="-18.9" drill="1.4"/>
+<pad name="P$24" x="-2.75" y="-23.1" drill="1.4"/>
+<wire x1="4.8" y1="21" x2="4.8" y2="-25.8" width="0.127" layer="21"/>
+<wire x1="4.8" y1="-25.8" x2="-4.8" y2="-25.8" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="-25.8" x2="-4.8" y2="0" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="0" x2="-4.8" y2="4.2" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="4.2" x2="-4.8" y2="25.8" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="25.8" x2="0" y2="25.8" width="0.127" layer="21"/>
+<wire x1="0" y1="25.8" x2="4.8" y2="25.8" width="0.127" layer="21"/>
+<wire x1="4.8" y1="25.8" x2="4.8" y2="21" width="0.127" layer="21"/>
+<wire x1="4.8" y1="21" x2="0" y2="21" width="0.127" layer="21"/>
+<wire x1="0" y1="21" x2="0" y2="25.8" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="4.2" x2="-6.3" y2="4.2" width="0.127" layer="21"/>
 <wire x1="-6.3" y1="4.2" x2="-6.3" y2="0" width="0.127" layer="21"/>
-<wire x1="-6.3" y1="0" x2="-4.2" y2="0" width="0.127" layer="21"/>
+<wire x1="-6.3" y1="0" x2="-4.8" y2="0" width="0.127" layer="21"/>
 <text x="-4.2" y="29.4" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.2" y="27.3" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="CONNECTOR-P4">
-<pad name="P$1" x="2.1" y="-2.1" drill="1.6" shape="square"/>
-<pad name="P$2" x="-2.1" y="-2.1" drill="1.6"/>
-<pad name="P$3" x="2.1" y="2.1" drill="1.6"/>
-<pad name="P$4" x="-2.1" y="2.1" drill="1.6"/>
-<wire x1="-4.2" y1="4.2" x2="-1.05" y2="4.2" width="0.127" layer="21"/>
-<wire x1="1.05" y1="4.2" x2="4.2" y2="4.2" width="0.127" layer="21"/>
-<wire x1="4.2" y1="4.2" x2="4.2" y2="0" width="0.127" layer="21"/>
-<wire x1="4.2" y1="0" x2="4.2" y2="-1.575" width="0.127" layer="21"/>
-<wire x1="4.2" y1="-1.575" x2="4.2" y2="-2.1" width="0.127" layer="21"/>
-<wire x1="4.2" y1="-2.1" x2="4.2" y2="-4.2" width="0.127" layer="21"/>
-<wire x1="4.2" y1="-4.2" x2="0" y2="-4.2" width="0.127" layer="21"/>
-<wire x1="0" y1="-4.2" x2="-4.2" y2="-4.2" width="0.127" layer="21"/>
-<wire x1="-4.2" y1="-4.2" x2="-4.2" y2="4.2" width="0.127" layer="21"/>
-<wire x1="0" y1="-4.2" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="4.2" y2="0" width="0.127" layer="21"/>
+<description>Moled 0039293046  (digikey WM3844-ND)
+Updated spacing  - RSTP Apr 24, 2014</description>
+<pad name="P$1" x="2.1" y="-2.75" drill="1.6" shape="square"/>
+<pad name="P$2" x="-2.1" y="-2.75" drill="1.6"/>
+<pad name="P$3" x="2.1" y="2.75" drill="1.6"/>
+<pad name="P$4" x="-2.1" y="2.75" drill="1.6"/>
+<wire x1="-4.8" y1="4.8" x2="-1.05" y2="4.8" width="0.127" layer="21"/>
+<wire x1="1.05" y1="4.8" x2="4.8" y2="4.8" width="0.127" layer="21"/>
+<wire x1="4.8" y1="4.8" x2="4.8" y2="0" width="0.127" layer="21"/>
+<wire x1="4.8" y1="0" x2="4.8" y2="-1.575" width="0.127" layer="21"/>
+<wire x1="4.8" y1="-1.575" x2="4.8" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="4.8" y1="-2.1" x2="4.8" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="4.8" y1="-4.8" x2="0" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="0" y1="-4.8" x2="-4.8" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="-4.8" x2="-4.8" y2="4.8" width="0.127" layer="21"/>
+<wire x1="0" y1="-4.8" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="4.8" y2="0" width="0.127" layer="21"/>
 <text x="-4.2" y="8.4" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.2" y="6.3" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-1.05" y1="4.2" x2="-1.05" y2="5.25" width="0.127" layer="21"/>
-<wire x1="-1.05" y1="5.25" x2="1.05" y2="5.25" width="0.127" layer="21"/>
-<wire x1="1.05" y1="5.25" x2="1.05" y2="4.2" width="0.127" layer="21"/>
-<wire x1="1.05" y1="4.2" x2="-1.05" y2="4.2" width="0.127" layer="21"/>
-<wire x1="4.2" y1="-1.575" x2="4.2" y2="-2.1" width="0.127" layer="21" curve="-270"/>
+<wire x1="-1.05" y1="4.8" x2="-1.05" y2="6.2" width="0.127" layer="21"/>
+<wire x1="-1.05" y1="6.2" x2="1.05" y2="6.2" width="0.127" layer="21"/>
+<wire x1="1.05" y1="6.2" x2="1.05" y2="4.8" width="0.127" layer="21"/>
+<wire x1="1.05" y1="4.8" x2="-1.05" y2="4.8" width="0.127" layer="21"/>
+<wire x1="4.8" y1="-1.575" x2="4.8" y2="-2.1" width="0.127" layer="21" curve="-270"/>
 </package>
 <package name="HEADER_2X5-SMT">
 <smd name="P$1" x="-5.08" y="-2.0955" dx="1.651" dy="3.175" layer="1" rot="R180"/>
